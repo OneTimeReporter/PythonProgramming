@@ -1,8 +1,8 @@
-paspoortcheck = input("Heeft U een paspoort? True of False: ")
+paspoortcheck = input("Heeft U een paspoort?: ")
 leeftijd = int(input("Wat is uw leeftijd?: "))
 
 
-if paspoortcheck == 'True' and leeftijd >= 18:
+if paspoortcheck == 'Ja' and leeftijd >= 18:
     print("U mag stemmen!")
 
 else:
